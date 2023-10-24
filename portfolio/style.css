@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EBEDEE;
+}
+nav.navbar{
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.186) 0 0 7px ;
+}
+div.navbarcontent{
+    margin: 0 auto;
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+p.logo{
+    display: inline;
+    font-size: 30px;
+    font-weight: bold;
+}
+p.logo span{
+    color: #4B4B4B;
+    font-weight: lighter;
+}
+
+div.container{
+    margin: 0 auto;
+    width: 1080px;
+}
+ul.navlink{
+    display: inline-flex;
+    justify-content: right ;
+    align-content: center;
+}
+ul.navlink li{
+    display: inline;
+    align-self: center;
+    margin-left: 30px;
+}
+ul.navlink li a{
+    text-decoration: none;
+    color: black;
+    font-size: .97em;
+}
+div.jumbotron{
+    display: flex;
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding: 14px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.186) 0 4px 7px;
+}
+div.jumbotron img{
+    display: inline;
+    width: 220px;
+    border-radius: 25px;
+    margin-right: 35px;
+}
+div.divjumbotron{
+    display: inline;
+}
+div.divjumbotron h1{
+    font-size: 2em;
+    font-weight: 600;
+    margin-left: -2px;
+}
+div.divjumbotron p.subtitle{
+    font-size:1.1em;
+    font-weight: 400;
+    margin-top: -7px;
+    margin-bottom: 10px;
+    color: #4B4B4B;
+}
+div.skillscontainer h1{
+    font-size: 1.9em;
+    font-weight: 500;
+}
+div.skillscontainer h2{
+    font-size: 1.7em;
+    font-weight: 500;
+}
+div.skillscontainer{
+    margin-top: 40px;
+}
+div.skillscontainer ul{
+    margin: 10px 0;
+    margin-bottom: 25px;
+}
+div.skillscontainer ul li{
+    display: inline;
+    margin-right: 5px;
+    padding: 6px 20px;
+    background-color: #CBCBCB;
+}
