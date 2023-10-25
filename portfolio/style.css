@@ -98,3 +98,15 @@ div.skillscontainer ul li{
     padding: 6px 20px;
     background-color: #CBCBCB;
 }
+ul.linkincons{
+
+}
+ul.linkincons li{
+    display: inline;
+}
+ion-icon{
+    color: black;
+    border-radius: 2px;
+    font-size: 1.6em;
+    padding: 2px;
+}
