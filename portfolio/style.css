@@ -13,11 +13,12 @@ nav.navbar{
 }
 div.navbarcontent{
     margin: 0 auto;
-    width: 1080px;
+    max-width: 1050px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 70px;
+    padding: 0 10px;
 }
 p.logo{
     display: inline;
@@ -31,7 +32,8 @@ p.logo span{
 
 div.container{
     margin: 0 auto;
-    width: 1080px;
+    max-width: 1050px;
+    padding: 0 10px;
 }
 ul.navlink{
     display: inline-flex;
@@ -52,15 +54,17 @@ div.jumbotron{
     display: flex;
     background-color: #ffffff;
     margin-top: 20px;
-    padding: 14px;
-    border-radius: 30px;
+    padding: 10px;
+    border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.186) 0 4px 7px;
 }
 div.jumbotron img{
     display: inline;
     width: 220px;
-    border-radius: 25px;
+    border-radius: 3px;
     margin-right: 35px;
+    object-fit: cover;
+    object-position: center;
 }
 div.divjumbotron{
     display: inline;
@@ -70,27 +74,27 @@ div.divjumbotron h1{
     font-weight: 600;
     margin-left: -2px;
 }
-div.divjumbotron p.subtitle{
+p.subtitle{
     font-size:1.1em;
-    font-weight: 400;
+    font-weight: 200;
     margin-top: -7px;
     margin-bottom: 10px;
     color: #4B4B4B;
 }
-div.skillscontainer h1{
-    font-size: 1.9em;
+h1{
+    font-size: 1.8em;
     font-weight: 500;
 }
-div.skillscontainer h2{
-    font-size: 1.7em;
+h2{
+    font-size: 1.5em;
     font-weight: 500;
 }
 div.skillscontainer{
-    margin-top: 40px;
+    margin-top: 50px;
 }
 div.skillscontainer ul{
     margin: 10px 0;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 div.skillscontainer ul li{
     display: inline;
@@ -99,14 +103,127 @@ div.skillscontainer ul li{
     background-color: #CBCBCB;
 }
 ul.linkincons{
-
+margin-top: 8px;
+align-items: center;
 }
 ul.linkincons li{
     display: inline;
+    margin: 0;
+}
+ul.linkincons a{
+    margin: 0;
 }
 ion-icon{
     color: black;
     border-radius: 2px;
     font-size: 1.6em;
-    padding: 2px;
+    padding: 2px 0;
+    margin-bottom: -10px;
+}
+div.projects{
+    margin-top: 60px;
+}
+div.principalproject{
+    display: grid;
+    grid-template-columns: 48% 1fr;
+}
+div.principalproject img{
+    width: 100%;
+}
+div.principalproject div{
+    margin-left: 20px;
+}
+
+a.btn{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 7px 26px;
+    border-radius: 3px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: .9em;
+    font-weight: 200;
+}
+a.btnjbt{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 5px 26px;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: .85em;
+    font-weight: 200;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+div.outerproject{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+div.outerproject h3{
+    font-size: 1.05em;
+}
+div.outerproject p{
+    font-size:.85em;
+    font-weight: 200;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    color: #4B4B4B;
+}
+div.certification{
+    margin-top: 50px;
+}
+div.gridcertification{
+    display: grid;
+    grid-template-columns: 180px 1fr;
+}
+div.gridcertification img{
+    width: 100%;
+    border: #a0a0a0 1px solid;
+}
+div.gridcertification div{
+    margin-left: 20px;
+}
+.mgbottom{
+margin-bottom: 15px;
+}
+div.contact{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+div.contact p a{
+    text-decoration: none;
+    color: rgb(0, 98, 255);
+}
+footer{
+    background-color: #CBCBCB;
+    color: black;
+}
+footer p{
+    text-align: center;
+    line-height: 60px;
+    font-weight: 200;
+    font-size: .9em;
+}
+h1.abautheader{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+div.abautdescriptiondiv{
+    margin: 40px 0 15px 0;
+}
+div.abautdescriptiondiv h2{
+    margin-bottom: 10px;
+}
+p.errata{
+    padding: 12px 30px;
+    background-color: #CBCBCB;
+    color: #4B4B4B;
+    font-size: 0.85em;
+    font-weight: 200;
+    margin: 10px 20px;
+    border: double 4px #EBEDEE;
 }

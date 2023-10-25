@@ -13,16 +13,16 @@
         <div class="navbarcontent">
             <p class="logo"><span>MEU</span>PORTFÓLIO</p>
             <ul class="navlink">
-                <li><a href="#">Sobre mim</a></li>
-                <li><a href="#">Competências</a></li>
-                <li><a href="#">Meus Projetos</a></li>
-                <li><a href="#">Certificados</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#abaut">Sobre mim</a></li>
+                <li><a href="#skills">Competências</a></li>
+                <li><a href="#projects">Meus Projetos</a></li>
+                <li><a href="#certificates">Certificados</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
         </div>
     </nav>
     <div class="container">
-        <div class="jumbotron">
+        <div id="abaut" class="jumbotron">
             <img src="./assets/perfil.png" alt="Lucas Manoel Image">
             <div class="divjumbotron">
                 <h1>Lucas Manoel</h1>
@@ -31,21 +31,22 @@
                     Iniciei na programação em 2018 ao ingressar no Centro Universitário Facol, onde cursei Sistemas de Informação durante seis períodos, tendo trancado no período da pandemia, desde então, tenho estudado por meio de cursos online, criado projetos pessoais para o meu portfólio e desenvolvido dois jogos para a Play Store.
                 </p>
                 <ul class="linkincons">
-                    <li><a href=""><ion-icon name="logo-linkedin"></ion-icon></a></li>
-                    <li><a href=""><ion-icon name="logo-github"></ion-icon></a></li>
-                    <li><a href=""><ion-icon name="logo-google-playstore"></ion-icon></a></li>
+                    <li><a class="btnjbt" href="./abaut.html">Saiba mais</a></li>
+                    <li><a href="https://www.linkedin.com/in/lucas-manooel/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li><a href="https://github.com/LucasMMSilva"><ion-icon name="logo-github"></ion-icon></a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=com.MuyrakGames.SimonSays&hl=pt_PT&gl=US"><ion-icon name="logo-google-playstore"></ion-icon></a></li>
                 </ul>
             </div>
         </div>
-        <div class="skillscontainer">
-            <h1>Competências</h1>
+        <div id="skills" class="skillscontainer">
+            <h1 class="mgbottom">Competências</h1>
             <ul>
                 <li>Javascript</li>
                 <li>Node.js</li>
                 <li>MySQL</li>
                 <li>MongoDB</li>
             </ul>
-            <h2>Outras competências</h2>
+            <h2 class="mgbottom">Outras competências</h2>
             <ul>
                 <li>Express</li>
                 <li>React</li>
@@ -54,6 +55,57 @@
                 <li>CSS</li>
             </ul>
         </div>
+        <div id="projects" class="projects">
+            <h1 class="mgbottom">Projetos em destaque</h1>
+            <div class="principalproject">
+                <img src="./assets/post-home.png" alt="twitterclone">
+                <div>
+                    <h2>Clone do Twitter</h2>
+                    <p class="subtitle">Express, Sequelize, e Handlebars</p>
+                    <p>Um clone simples do Twitter com publicação apenas de texte com fins meramente educativo, utilizando Express, Sequelize, e Handlebars utilizando o padrão MVC.</p>
+                    <a class="btn" href="">Abrir no Github</a>
+                </div>
+            </div>
+            <div class="outerproject">
+                <div>
+                    <h3>Calculadora</h3>
+                    <p>Javascript, HTML, CSS</p>
+                </div>
+                <div>
+                    <h3>To-Do List</h3>
+                    <p>Node.js, express, sequelize, handlebars</p>
+                </div>
+                <div>
+                    <h3>Conversão de Escala Termométrica</h3>
+                    <p>Javascript, HTML, CSS</p>
+                </div>
+                <div>
+                    <a class="btn" href="">Abrir no Github</a>
+                </div>
+                <div>
+                    <a class="btn" href="">Abrir no Github</a>
+                </div>
+                <div>
+                    <a class="btn" href="">Abrir no Github</a>
+                </div>
+            </div>
+        </div>
+        <div id="certificates" class="certification">
+            <h1 class="mgbottom">Certificados</h1>
+            <div class="gridcertification">
+                <img src="./assets/UC-e632a4a5-ce36-4996-ae00-70b390a2cce6.jpg" alt="Certificado Nodejs">
+                <div>
+                    <h3>Node.js do Zero a Maestria com diversos Projetos</h3>
+                    <p>Hora de Codar, Matheus Battisti</p>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="contact">
+            <h2 class="mgbottom">Contato</h2>
+            <p>E-mail: dev.lucasmanoel@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/lucas-manooel/">@lucas-manooel</a></p>
+        </div>
     </div>
+    <footer><p>Todos os direitos reservados</p></footer>
 </body>
 </html>
