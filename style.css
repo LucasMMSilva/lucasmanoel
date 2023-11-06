@@ -3,6 +3,8 @@
     font-family: 'JetBrains Mono', monospace;
     margin: 0;
     padding: 0;
+    
+    scroll-behavior: smooth;
 }
 body{
     background-color: #EBEDEE;
@@ -31,6 +33,7 @@ p.logo span{
 }
 
 div.container{
+    display: block;
     margin: 0 auto;
     max-width: 1050px;
     padding: 0 10px;
