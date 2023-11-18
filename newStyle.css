@@ -20,3 +20,46 @@ nav ul li a{
     color: black;
     line-height: 50px;
 }
+div.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+div.destaque{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100px;
+    padding-top: 50px;
+}
+div.destaque div{
+    height: 100%;
+}
+div.destaque div.discricao div{
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+div.destaque div.image img{
+    display: block;
+    height: 550px;
+    justify-content: right;
+    margin: 0 auto;
+}
+div.destaque div.discricao div img{
+    width: 100%;
+    margin: 40px 0;
+}
+div.destaque div.discricao div p{
+    line-height: 26px;
+    font-weight: 20px;
+    font-style: italic;
+    text-align: justify;
+    hyphens: auto;
+    
+}
+div.destaque div.discricao ul li{
+    display: inline;
+}
+div.destaque div.discricao ul li a img{
+    width: 23px;
+    text-align: left;
+}
