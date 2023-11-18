@@ -28,7 +28,7 @@ div.destaque{
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 100px;
-    padding-top: 50px;
+    padding-top: 51px;
 }
 div.destaque div{
     height: 100%;
@@ -72,4 +72,7 @@ div.destaque div.discricao ul li{
 div.destaque div.discricao ul li a img{
     width: 24px;
     text-align: left;
+}
+div.about{
+    display: block;
 }
