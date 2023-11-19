@@ -21,6 +21,7 @@ nav ul li a{
     line-height: 50px;
 }
 div.container{
+    display: block;
     width: 1200px;
     margin: 0 auto;
 }
@@ -29,6 +30,7 @@ div.destaque{
     grid-template-columns: 1fr 1fr;
     height: 100px;
     padding-top: 51px;
+    margin-bottom: 30px;
 }
 div.destaque div{
     height: 100%;
