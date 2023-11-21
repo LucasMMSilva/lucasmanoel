@@ -28,7 +28,6 @@ div.container{
 div.destaque{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 100px;
     padding-top: 51px;
     margin-bottom: 30px;
 }
@@ -77,4 +76,29 @@ div.destaque div.discricao ul li a img{
 }
 div.about{
     display: block;
+}
+div.desc{
+    display: block;
+    height: 600px;
+}
+
+div.about h3{
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 40px;
+}
+div.about p{
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 20px;
+}
+div.about h5{
+    display: block;
+    padding: 20px 10px;
+    background-color: #cdd5de;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 40px;
+    margin: 20px 50px;
+    text-align: center;
 }
