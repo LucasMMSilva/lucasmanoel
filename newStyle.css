@@ -102,6 +102,14 @@ div.about h5{
     margin: 20px 50px;
     text-align: center;
 }
+div.competencias{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+div.competencias h2{
+    font-weight: 600;
+    font-style: italic;
+}
 div.competencias ul{
     display: block;
     margin-top: 20px;
@@ -109,7 +117,38 @@ div.competencias ul{
 div.competencias ul li{
     display: inline;
     padding: 5px 0;
-    padding-right: 20px;
-    margin-right: 10px;
+    padding-right: 25px;
+    margin-right: 20px;
     background-color: cadetblue;
+    font-weight: 600;
+    font-style: italic; 
+    background-size: cover;
+    image-rendering: pixelated;
+}
+li.node{
+    background-image: url(./assets/node.png);
+}
+li.express{
+    background-image: url(./assets/express.png);
+}
+li.mysql{
+    background-image: url(./assets/mysql.png);
+}
+li.mongodb{
+    background-image: url(./assets/mongodb.png);
+}
+li.javascript{
+    background-image: url(./assets/javascript.png);
+}
+li.react{
+    background-image: url(./assets/react.png);
+}
+li.html{
+    background-image: url(./assets/html.png);
+}
+li.css{
+    background-image: url(./assets/css.png);
+}
+li.handlebars{
+    background-image: url(./assets/handlebars.png);
 }
