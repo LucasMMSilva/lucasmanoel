@@ -22,7 +22,7 @@ nav ul li a{
 }
 div.container{
     display: block;
-    width: 1200px;
+    width: 1140px;
     margin: 0 auto;
 }
 div.destaque{
@@ -119,7 +119,7 @@ div.competencias ul li{
     padding: 5px 0;
     padding-right: 25px;
     margin-right: 20px;
-    background-color: cadetblue;
+    background-color: rgb(255, 255, 255);
     font-weight: 600;
     font-style: italic; 
     background-size: cover;
