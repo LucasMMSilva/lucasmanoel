@@ -3,128 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Lucas Manoel</title>
-    <link rel="stylesheet" href="style.css">
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Lucas Manoel</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navbarcontent">
-            <p class="logo"><span>LUCAS</span>MANOEL</p>
-            <ul class="navlink">
-                <li><a href="#abaut">Sobre mim</a></li>
-                <li><a href="#skills">Competências</a></li>
-                <li><a href="#projects">Meus Projetos</a></li>
-                <li><a href="#certificates">Certificados</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="container">
-        <div id="abaut" class="jumbotron">
-            <img src="./assets/perfil1.png" alt="Lucas Manoel Image">
-            <div class="divjumbotron">
-                <h1>Lucas Manoel</h1>
-                <p class="subtitle">Desenvolvedor Back-end Junior</p>
-                <p>
-                    Iniciei na programação em 2018 ao ingressar no Centro Universitário Facol, onde cursei Sistemas de Informação durante seis períodos, tendo trancado no período da pandemia, desde então, tenho estudado por meio de cursos online, criado projetos pessoais para o meu portfólio e desenvolvido dois jogos para a Play Store.
+    <nav>
+        <ul>
+            <li><a href="">Sobre mim</a></li>
+            <li><a href="">Competências</a></li>
+            <li><a href="">Meus projetos</a></li>
+            <li><a href="">Certificados</a></li>
+            <li><a href="">Contato</a></li>
+        </ul>
+    </nav>    
+        <div class="container">
+
+                <div class="destaque">
+                    <div class="image">
+                        <img src="./assets/perfil1.png" alt="">
+                    </div>
+                    <div class="discricao">
+                        <div>
+                            <img src="./assets/name.png" alt="">
+                            <p>
+                                Iniciei na programação em 2018 ao ingressar no Centro Universitário Facol, onde cursei Sistemas de Informação durante seis períodos, tendo trancado no período da pandemia, desde então, tenho estudado por meio de cursos online, criado projetos pessoais para o meu portfólio e desenvolvido dois jogos para a Play Store.
+                            </p>
+                            <ul>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/lucas-manooel/" target="_blank">
+                                        <img src="./assets/linkedin.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/LucasMMSilva" target="_blank">
+                                        <img src="./assets/github.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>   
+                    </div>
+                </div>
+
+            <div class="about">
+                <h3>Um pouco mais sobre mim</h3>
+                <p>Me chamo Lucas, tenho 25 anos de idade e 5 anos de programação. Sou natural de Pernambuco e apaixonado por tecnologia. Frequentei a instituição de ensino superior Unifacol entre 2018 e 2020, cursando Sistemas de Informação, o qual ainda se encontra incompleto. Desde então, tenho estudado por meio de cursos online diversas tecnologias para encontrar a que mais se adequa a mim.</p>
+                <h3>Experiências e projetos pessoais</h3>
+                <p>Apesar de não possuir experiência profissional, venho desenvolvendo projetos pessoais, como jogos para plataformas móveis, e contribuído com projetos no meu repositório no GitHub.</p>
+                <h5>"Os jogos em questão encontram-se temporariamente indisponíveis devido a novas demandas de atualização da Google Play Store."</h5>
+                <h3>O que estou fazendo agora e metas para o futuro</h3>
+                <p>Neste exato momento, estou concentrado em buscar meu primeiro emprego como programador para entrar no mercado. Além disso, estou planejando retornar ao curso de Sistemas de Informação para concluí-lo.</p>
+                <p>Atualmente, estou desenvolvendo uma aplicação web de pomodoro usando React no front-end e Node.js com Express e MongoDB (Mongoose) no banco de dados. Os usuários podem criar um perfil e estabelecer objetivos que serão usados no sistema de pomodoro, registrando o tempo dedicado a cada objetivo.
                 </p>
-                <ul class="linkincons">
-                    <li><a class="btnjbt" href="./abaut.html">Saiba mais</a></li>
-                    <li><a href="https://www.linkedin.com/in/lucas-manooel/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-                    <li><a href="https://github.com/LucasMMSilva"><ion-icon name="logo-github"></ion-icon></a></li>
-                    <li><a href="https://play.google.com/store/apps/details?id=com.MuyrakGames.SimonSays&hl=pt_PT&gl=US"><ion-icon name="logo-google-playstore"></ion-icon></a></li>
+                <p>Além do Pomodoro, estou iniciando o desenvolvimento de uma API RESTful para um projeto de e-commerce no meu portfólio. Também estou trabalhando em uma continuação do meu jogo SimonSays, aplicando o conhecimento adquirido para aprimorar o que poderia ter sido feito de maneira mais eficiente.
+                </p>
+                <h3>O que estou estudando?</h3>
+                <p>"Atualmente, estou dedicando meu tempo ao estudo do React.js para aprimorar minhas habilidades em desenvolvimento front-end, além de focar nos estudos de bancos de dados SQL."
+                </p>
+                <h3>O que pretendo estudar no futuro proximo?</h3>
+                <p>"No futuro próximo, pretendo direcionar meus estudos para aprender a criar sistemas mais estáveis, escaláveis e seguros."
+                </p>
+            </div>
+            <div class="competencias">
+                <h2>Competências</h2>
+                <ul>
+                    <li class="node">Node.js</li>
+                    <li class="express">Express</li>
+                    <li class="mysql">MySQL</li>
+                    <li class="mongodb">MongoDB</li>
+                </ul>
+                <ul>
+                    <li class="javascript">Javascript</li>
+                    <li class="react">React</li>
+                    <li class="html">HTML</li>
+                    <li class="css">CSS</li>
+                    <li class="handlebars">Handlebars</li>
                 </ul>
             </div>
-        </div>
-        <div id="skills" class="skillscontainer">
-            <h1 class="mgbottom">Competências</h1>
-            <ul>
-                <li>Javascript</li>
-                <li>Node.js</li>
-                <li>MySQL</li>
-                <li>MongoDB</li>
-            </ul>
-            <h2 class="mgbottom">Outras competências</h2>
-            <ul>
-                <li>Express</li>
-                <li>React</li>
-                <li>Handlebars</li>
-                <li>HTML</li>
-                <li>CSS</li>
-            </ul>
-        </div>
-        <div id="projects" class="projects">
-            <h1 class="mgbottom">Projetos em destaque</h1>
-            <div class="principalproject">
-                <img src="./assets/post-home.png" alt="twitterclone">
-                <div>
-                    <h2>Clone do Twitter</h2>
-                    <p class="subtitle">Express, Sequelize, e Handlebars</p>
-                    <p>Um clone simples do Twitter com publicação apenas de texte com fins meramente educativo, utilizando Express, Sequelize, e Handlebars utilizando o padrão MVC.</p>
-                    <a class="btn" href="https://github.com/LucasMMSilva/post.it-twitter-simple-clone">Abrir no Github</a>
+            <div class="projetos">
+                <h2>Meus projetos</h2>
+                <div class="cards">
+                    <div class="card">
+                        <img class="img" src="./assets/postit.png" alt="">
+                        <div>
+                            <h3>Post.it - Twitter clone</h3>
+                            <p>
+                                Um clone simples do Twitter com publicação apenas de texte com fins meramente educativo, utilizando Express, Sequelize, e Handlebars utilizando o padrão MVC
+                            </p>
+                            <a href="https://github.com/LucasMMSilva/post.it-twitter-simple-clone"><img src="./assets/github.png" alt="">Abrir no github</a>
+                        </div>
+                    </div>
+                    <div></div>
+                    <div class="card">
+                        <img class="img" src="./assets/pomodoro.png" alt="">
+                        <div>
+                            <h3>Pomodoro</h3>
+                            <p>
+                                Um sistema de pomodoro em React, Express e Mongoose, RESTfull, conta com um sistema de registro de usuário e uma lista de 'tarefas' e salava o tempo dedicado a cada 'tarefa'.
+                            </p>
+                            <a href="https://github.com/LucasMMSilva/react-pomodoro"><img src="./assets/github.png" alt="">Abrir no github</a>
+                        </div>
+                    </div>
                 </div>
+                
             </div>
-            <div class="outerproject">
-                <div>
-                    <h3>Calculadora</h3>
-                    <p>Javascript, HTML, CSS</p>
-                </div>
-                <div>
-                    <h3>To-Do List</h3>
-                    <p>Node.js, express, sequelize, handlebars</p>
-                </div>
-                <div>
-                    <h3>Conversão de Escala Termométrica</h3>
-                    <p>Javascript, HTML, CSS</p>
-                </div>
-                <div>
-                    <a class="btn" href="https://github.com/LucasMMSilva/Calculadora-JS">Abrir no Github</a>
-                </div>
-                <div>
-                    <a class="btn" href="https://github.com/LucasMMSilva/todo-list">Abrir no Github</a>
-                </div>
-                <div>
-                    <a class="btn" href="https://github.com/LucasMMSilva/Conversor-de-escalas-termometricas">Abrir no Github</a>
-                </div>
+            <div class="contato">
+                <h2>Contato</h2>
+                <p>E-mail: <span>dev.lucasmanoel@gmail.com</span></p>
             </div>
+
         </div>
-        <div id="certificates" class="certification">
-            <h1 class="mgbottom">Certificados</h1>
-            <div class="gridcertification">
-                <a href="https://www.udemy.com/certificate/UC-e632a4a5-ce36-4996-ae00-70b390a2cce6/" target="_blank">
-                    <img src="./assets/UC-e632a4a5-ce36-4996-ae00-70b390a2cce6.jpg" alt="Certificado Nodejs">
-                </a>
-                <div>
-                    <a href="https://www.udemy.com/certificate/UC-e632a4a5-ce36-4996-ae00-70b390a2cce6/" target="_blank">
-                        <h3>Node.js do Zero a Maestria com diversos Projetos</h3>
-                    </a>
-                    <a href="https://www.udemy.com/certificate/UC-e632a4a5-ce36-4996-ae00-70b390a2cce6/" target="_blank">
-                        <p>Hora de Codar, Matheus Battisti</p>
-                    </a>
-                </div>
-            </div>
-            <div class="gridcertification">
-                <a href="https://www.udemy.com/certificate/UC-7eeec01b-592f-408e-9bc9-a87ba6bf6e93/" target="_blank">
-                    <img src="./assets/UC-7eeec01b-592f-408e-9bc9-a87ba6bf6e93.jpg" alt="Certificado Nodejs">
-                </a>
-                <div>
-                    <a href="https://www.udemy.com/certificate/UC-7eeec01b-592f-408e-9bc9-a87ba6bf6e93/" target="_blank">
-                        <h3>JavaScript - Curso COMPLETO com 6 Projetos REAIS</h3>
-                    </a>
-                    <a href="https://www.udemy.com/certificate/UC-7eeec01b-592f-408e-9bc9-a87ba6bf6e93/" target="_blank">
-                        <p>Hcode Treinamentos, Glaucio Daniel, Djalma Sindeaux, João Rangel</p>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div id="contact" class="contact">
-            <h2 class="mgbottom">Contato</h2>
-            <p>E-mail: dev.lucasmanoel@gmail.com</p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/lucas-manooel/" target="_blank">@lucas-manooel</a></p>
-        </div>
-    </div>
-    <footer><p>Todos os direitos reservados</p></footer>
+    <footer>
+        <p>&copy; 2023 Lucas Manoel. Todos os direitos reservados.</p>
+    </footer>
+        
+    
 </body>
 </html>
