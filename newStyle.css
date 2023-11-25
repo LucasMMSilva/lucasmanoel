@@ -152,3 +152,14 @@ li.css{
 li.handlebars{
     background-image: url(./assets/handlebars.png);
 }
+div.projetos div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+div.projetos div div.card{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+div.projetos div div.card img{
+    width: 100%;
+}
