@@ -152,12 +152,17 @@ li.css{
 li.handlebars{
     background-image: url(./assets/handlebars.png);
 }
+div.projetos{
+    margin-bottom: 40px;
+}
 div.projetos h2{
     margin-bottom: 30px;
+    font-weight: 600;
+    font-style: italic;
 }
 div.projetos div.cards{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 20px 1fr;
     box-sizing: content-box;
 }
 div.projetos div.cards div.card{
@@ -170,14 +175,37 @@ div.projetos div.cards div.card .img{
     margin-right: 30px;
 }
 div.projetos div.cards div.card div{
-margin-left: 10px;
+    margin-left: 10px;
 }
 div.projetos div.cards div.card div h3{
+    display: inline-block;
     margin-bottom: 10px;
+    font-weight: 500;
+    font-style: italic;
+    background-color: aqua;
+    background-size: cover;
+    image-rendering: pixelated;
+    background-image: url(./assets/generccolor.png);
+    padding: 2px 0;
+    padding-right: 25px;
 }
 div.projetos div.cards div.card div p{
     font-size: .9em;
+    font-weight: 300;
+    font-style: italic;
+    text-align: justify;
+    hyphens: auto;
 }
 div.projetos div.cards div.card div a img{
     width: 24px;
+    margin-right: 8px;
+    margin-bottom: -5px;
+}div.projetos div.cards div.card div a{
+    align-self: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    color: black;
+    font-style: italic;
+    font-size: .9;
 }
