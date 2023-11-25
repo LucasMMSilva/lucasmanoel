@@ -209,3 +209,26 @@ div.projetos div.cards div.card div a img{
     font-style: italic;
     font-size: .9;
 }
+div.contato{
+    margin-top: 60px;
+}
+div.contato h2{
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-style: italic;
+}
+div.contato p{
+    line-height: 26px;
+    font-weight: 400;
+    font-style: italic;
+    color: gray;
+}
+div.contato p span{
+    color: black;
+}
+footer{
+    margin-top: 80px;
+    text-align: center;
+    line-height: 60px;
+    background-color: #cdd5de;
+}
