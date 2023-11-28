@@ -3,6 +3,7 @@
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 nav ul{
     justify-items: center;
@@ -182,7 +183,6 @@ div.projetos div.cards div.card div h3{
     margin-bottom: 10px;
     font-weight: 500;
     font-style: italic;
-    background-color: aqua;
     background-size: cover;
     image-rendering: pixelated;
     background-image: url(./assets/generccolor.png);
@@ -225,6 +225,44 @@ div.contato p{
 }
 div.contato p span{
     color: black;
+}
+div.certificados h2{
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+div.cards div.certcard{
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    margin-bottom: 20px;
+}
+div.cards div.certcard div{
+    margin-left: 20px;
+}
+div.cards div.certcard img{
+    width: 100%;
+    margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.400) 0 1px 5px;
+}
+div.cards div.certcard div h3{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-style: italic;
+    background-size: cover;
+    image-rendering: pixelated;
+    background-image: url(./assets/generccolor.png);
+    padding: 2px 0;
+    padding-right: 25px;
+    color: black;
+}
+div.cards div.certcard div p{
+    font-size: .9em;
+    font-weight: 300;
+    font-style: italic;
+    text-align: justify;
+    hyphens: auto;
 }
 footer{
     margin-top: 80px;
