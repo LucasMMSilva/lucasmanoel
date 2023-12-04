@@ -551,4 +551,7 @@ footer{
         hyphens: auto;
     
     }
+    footer{
+        font-size: .78em;
+    }
 }
