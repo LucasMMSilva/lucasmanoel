@@ -521,4 +521,34 @@ footer{
         margin-right: 0;
         padding: 20px 20px;
     }
+    
+}
+@media screen and (max-width: 640px) {
+    div.competencias ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    div.competencias ul li{
+        display:inline-block;
+    }
+    div.projetos div.cards div.card{
+        display: block;
+        box-sizing: content-box;
+        margin-bottom: 50px;
+    }
+    div.cards div.certcard{
+        display: block;
+    }
+    div.cards div.certcard img{
+        display: none;
+    }
+    div.cards div.certcard div p{
+
+        font-size: .9em;
+        font-weight: 300;
+        font-style: italic;
+        text-align: left;
+        hyphens: auto;
+    
+    }
 }
