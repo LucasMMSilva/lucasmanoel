@@ -40,8 +40,9 @@ nav ul li a:hover{
 div.container{
 
     display: block;
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
+    padding: 0 10px;
 
 }
 div.destaque{
@@ -269,7 +270,8 @@ div.projetos div.cards div.card div a img{
     margin-right: 8px;
     margin-bottom: -5px;
 
-}div.projetos div.cards div.card div a{
+}
+div.projetos div.cards div.card div a{
 
     align-self: center;
     text-decoration: none;
@@ -362,4 +364,51 @@ footer{
     line-height: 60px;
     background-color: #cdd5de;
     
+}
+
+@media screen and (max-width: 979px) {
+    div.container{
+        padding: 0 20px;
+    
+    }
+    div.destaque div.discricao div{
+        width: 360px;
+        display: block;
+        margin: 0 auto;
+        
+    }
+    div.destaque div.image img{
+    
+        display: block;
+        height: 400px;
+        justify-content: right;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    div.destaque div.discricao div img{
+
+        width: 100%;
+        margin: 50px 0 30px;
+    
+    }
+    div.destaque div.discricao div p{
+        font-size: .9em;
+        line-height: 26px;
+        font-weight: 20px;
+        font-style: italic;
+        text-align: justify;
+        hyphens: auto;
+        margin: 0;
+    }
+    div.projetos div.cards div.card{
+        padding: 0 30px;
+        display: block;
+        box-sizing: content-box;
+    }
+    div.projetos div.cards div.card .img{
+        display: block;
+        width: 300px;
+        margin: 10px auto 30px;
+    
+    }
 }
