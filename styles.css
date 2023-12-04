@@ -11,6 +11,7 @@ nav ul{
 
     justify-items: center;
     margin: 0 auto;
+   
     text-align: center;
     
 }
@@ -35,6 +36,12 @@ nav ul li a{
 nav ul li a:hover{
 
     background-image: url(./assets/generccolor.png);
+}
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 35px;
+    margin-left: 10px;
 }
 
 div.container{
@@ -368,7 +375,7 @@ footer{
 
 @media screen and (max-width: 979px) {
     div.container{
-        padding: 0 20px;
+        padding: 0 30px;
     
     }
     div.destaque div.discricao div{
@@ -410,5 +417,108 @@ footer{
         width: 300px;
         margin: 10px auto 30px;
     
+    }
+}
+@media screen and (max-width: 800px) {
+
+    .menu-icon {
+        display: block;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.2) 0 4px 3px;
+        padding-bottom: 20px;
+        font-size: 1.1em;
+    }
+    nav ul.show {
+        display: flex;
+    }
+
+    div.container{
+        padding: 0 30px;
+    
+    }
+    div.destaque{
+        display: block;
+        margin-top: -30px;
+    }
+    div.destaque div.discricao div{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        
+    }
+    div.destaque div.image img{
+    
+        display: block;
+        height: 200px;
+        justify-content: right;
+        margin: 0 auto;
+        margin-top: 0px;
+        border-radius: 100%;
+    }
+    div.destaque div.discricao div img{
+        display: block;
+        max-width: 300px;
+        margin: 10px auto 30px;
+    }
+    div.destaque div.discricao ul{
+        display: block;
+        justify-items: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+    div.destaque div.discricao ul li {
+        margin: 0 20px;
+    }
+    div.destaque div.discricao ul li a img { 
+        display: inline;
+    }
+    div.destaque div.discricao ul li a{
+        display: inline;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    
+    }
+    div.destaque div.discricao div p{
+        font-size: .9em;
+        line-height: 26px;
+        font-weight: 20px;
+        font-style: italic;
+        text-align: justify;
+        hyphens: auto;
+        margin: 0;
+    }
+    div.projetos div.cards{
+        display: block;
+        box-sizing: content-box;
+    }
+    div.projetos div.cards div.card{
+        padding: 0 30px;
+        display: grid;
+        grid-template-columns: 260px 1fr;
+        box-sizing: content-box;
+    }
+    div.projetos div.cards div.card .img{
+        display: block;
+        width: 100%;
+        margin: 10px auto 30px;
+    
+    }
+    div.cards div.certcard div h3{
+        background-image: none;
+    }
+    div.about h5{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px 20px;
     }
 }
