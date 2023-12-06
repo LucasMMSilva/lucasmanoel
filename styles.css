@@ -524,6 +524,9 @@ footer{
     
 }
 @media screen and (max-width: 640px) {
+    *{
+        font-size: 1.04em;
+    }
     div.competencias ul{
         display: grid;
         grid-template-columns: 1fr 1fr;
